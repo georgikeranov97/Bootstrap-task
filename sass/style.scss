@@ -1,0 +1,88 @@
+$background-color: rgb(45, 45, 45);
+%common-style-map {
+    height: 500px;
+    width: 600px;
+}
+$circle-background-color: #fff;
+$phone-container-bgcolor: rgb(231,231,231);
+%circle-styles {
+    border-radius: 50%;
+    width: 4rem;
+    height: 3.9rem;
+    font-size: 2rem;
+}
+%facebook-icon-style {
+    padding-left: 1.4rem;
+    padding-top: 0.8rem;
+}
+%icon-style {
+    padding-left: 1rem;
+    padding-top: 0.9rem;
+}
+
+.jumbotron {
+    background-size: cover;
+}
+
+.nav {
+    background-color: $background-color
+}
+
+hr {
+    width: 15%;
+    height: 1px;
+    background-color: $background-color
+}
+
+.card-img-top {
+    height: 20rem;
+    width: 100%;
+}
+
+.card-img-left {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    margin-left: -1rem;
+}
+
+.cards-container {
+    background-color: whitesmoke;
+    padding-top: 2rem;
+}
+
+.contacts-container {
+    background-color: $background-color
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    @extend %common-style-map;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    @extend %common-style-map;
+}
+.phone-container {
+    background-color: $phone-container-bgcolor;
+}
+footer{
+    background-color: $background-color;
+}
+.circle{
+    @extend %circle-styles;
+    background-color: $circle-background-color;
+}
+.fa-facebook-f{
+    @extend %facebook-icon-style;
+}
+.fa-twitter, .fa-pinterest, .fa-smile-beam{
+    @extend %icon-style;
+}
+.circle > a{
+    color: $background-color
+}

@@ -1,0 +1,86 @@
+.gmap_canvas, .mapouter {
+  height: 500px;
+  width: 600px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 4rem;
+  height: 3.9rem;
+  font-size: 2rem;
+}
+
+.fa-facebook-f {
+  padding-left: 1.4rem;
+  padding-top: 0.8rem;
+}
+
+.fa-twitter, .fa-pinterest, .fa-smile-beam {
+  padding-left: 1rem;
+  padding-top: 0.9rem;
+}
+
+.jumbotron {
+  background-size: cover;
+}
+
+.nav {
+  background-color: #2d2d2d;
+}
+
+hr {
+  width: 15%;
+  height: 1px;
+  background-color: #2d2d2d;
+}
+
+.card-img-top {
+  height: 20rem;
+  width: 100%;
+}
+
+.card-img-left {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  margin-left: -1rem;
+}
+
+.cards-container {
+  background-color: whitesmoke;
+  padding-top: 2rem;
+}
+
+.contacts-container {
+  background-color: #2d2d2d;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+}
+
+.phone-container {
+  background-color: #e7e7e7;
+}
+
+footer {
+  background-color: #2d2d2d;
+}
+
+.circle {
+  background-color: #fff;
+}
+
+.circle > a {
+  color: #2d2d2d;
+}
+
+/*# sourceMappingURL=style.css.map */
